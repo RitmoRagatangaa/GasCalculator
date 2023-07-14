@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="combustivel.css">
+</head>
+<body>
+    <header>
+        <img src="/Combustível/gas_alc.png">
+        <h1>Calculadora de combustível</h1>
+    </header>
+
+    <main>
+        <img src="/Combustível/neutro.png" id="status">
+        <form name="formularioFlex">
+            <input type="number" size="8" placeholder="ETANOL" name="valoretanol" class="etanol">
+            <input type="number" size="8" placeholder="GASOLINA" name="valorgasolina" class="gasolina">
+            <br><br>
+            <input type="button" value="Calcular" class="calcular" onclick="Calcular()">
+            <input type="reset" value="Limpar" class="limpar" onclick="Limpar()">
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por JumanjiDaBest🤩<span>&reg;</span></p>
+    </footer>
+
+    <script src="combustivel.js"></script>
+
+</body>
+</html>

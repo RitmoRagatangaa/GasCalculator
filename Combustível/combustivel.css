@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background: gray;
+    text-align: center;
+    overflow: hidden;
+}
+
+header img {
+    max-width: 80%;
+}
+
+.calcular {
+    font-size: 25px;
+    padding: 10px 22px;
+    width: 225px;
+}
+
+.limpar {
+    font-size: 25px;
+    padding: 10px 30px;
+    width: 225px;
+}
+
+main img {
+    max-width: 800px;
+    height: 250px;
+    width: 450px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 30px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.etanol {
+    width: 220px;
+    height: 25px;
+}
+
+.gasolina {
+    width: 220px;
+    height: 25px;
+}
+
+span {
+    color: red;
+}
